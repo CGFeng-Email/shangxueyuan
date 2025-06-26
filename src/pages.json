@@ -1,0 +1,72 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "商学院",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classroom/index",
+			"style": {
+				"navigationBarTitleText": "云课堂",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/activityHall/index",
+			"style": {
+				"navigationBarTitleText": "活动馆",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "金丝玉玛商学院",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#d8d8d8",
+		"selectedColor": "#2b445e",
+		"backgroundColor": "#FFF",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/tabBar_li1.png",
+				"selectedIconPath": "static/img/tabBar_li1_active.png"
+			},
+			{
+				"pagePath": "pages/classroom/index",
+				"text": "云课堂",
+				"iconPath": "static/img/tabBar_li2.png",
+				"selectedIconPath": "static/img/tabBar_li2_active.png"
+			},
+			{
+				"pagePath": "pages/activityHall/index",
+				"text": "活动馆",
+				"iconPath": "static/img/tabBar_li3.png",
+				"selectedIconPath": "static/img/tabBar_li3_active.png"
+			},
+			{
+				"pagePath": "pages/me/index",
+				"text": "我的",
+				"iconPath": "static/img/tabBar_li4.png",
+				"selectedIconPath": "static/img/tabBar_li4_active.png"
+			}
+		]
+	}
+}
